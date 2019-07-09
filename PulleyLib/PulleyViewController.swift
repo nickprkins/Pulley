@@ -760,8 +760,8 @@ open class PulleyViewController: UIViewController, PulleyDrawerViewControllerDel
     
     override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        setNeedsSupportedDrawerPositionsUpdate()
+        //This is a bug for us
+        //setNeedsSupportedDrawerPositionsUpdate()
     }
     
     override open func viewDidLayoutSubviews() {
